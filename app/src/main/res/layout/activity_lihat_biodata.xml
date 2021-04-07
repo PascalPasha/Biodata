@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LihatBiodata">
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="104dp"
+        android:text="Textview"/>
+
+    <TextView
+        android:id="@+id/txtView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txtView1"
+        android:layout_below="@id/txtView1"
+        android:layout_marginTop="20dp"
+        android:text="TextView"/>
+    <TextView
+        android:id="@+id/txtView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txtView2"
+        android:layout_below="@id/txtView2"
+        android:layout_marginTop="20dp"
+        android:text="TextView"/>
+    <TextView
+        android:id="@+id/txtView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txtView3"
+        android:layout_below="@id/txtView3"
+        android:layout_marginTop="20dp"
+        android:text="TextView"/>
+    <TextView
+        android:id="@+id/txtView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txtView4"
+        android:layout_below="@id/txtView4"
+        android:layout_marginTop="20dp"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/txtView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtView5"
+        android:layout_alignBottom="@id/txtView5"
+        android:layout_alignLeft="@id/txtView03"
+        android:text="Alamat"/>
+    <TextView
+        android:id="@+id/txtView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtView4"
+        android:layout_alignBottom="@id/txtView4"
+        android:layout_alignLeft="@id/txtView04"
+        android:text="Jenis Kelamin"/>
+    <TextView
+        android:id="@+id/txtView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtView3"
+        android:layout_alignBottom="@id/txtView3"
+        android:layout_alignLeft="@id/txtView02"
+        android:text="Tanggal Lahir"/>
+    <TextView
+        android:id="@+id/txtView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtView2"
+        android:layout_alignBottom="@id/txtView2"
+        android:layout_alignLeft="@id/txtView01"
+        android:text="Nama"/>
+    <TextView
+        android:id="@+id/txtView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txtView2"
+        android:layout_alignParentLeft="true"
+        android:text="Alamat"/>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            app:fabAlignmentMode="center"
+            app:fabCradleRoundedCornerRadius="16dp"
+            android:backgroundTint="@color/white">
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="20dp"
+        app:elevation="4dp"
+        app:fabSize="normal" />
+
+
+</RelativeLayout>
